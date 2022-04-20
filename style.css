@@ -10,16 +10,28 @@ header{
 .h5, .card-title, .card-text{
     color: white;
 }
-.fondo, #navbar-bgcolor, footer{
+.background, #navbar-bgcolor, footer{
     background-color: #000000;
 }
-.img-promociones{
-    width: 250px;
-    height: 250px;
+.container-img{
+    width: 8rem;
+    height: 10rem;
+}
+.container-img img{
+    width: 100%;
 }
 .card-promociones{
     width: 18rem;
     margin: 1rem;
+    padding: .5rem;
+}
+.container-img-promociones{
+    width: 16rem;
+    height: 12rem;
+}
+.container-img-promociones img {
+    width: 100%;
+    height: 100%;
 }
 .card-hover:hover{
     background-color: #11111b!important;
