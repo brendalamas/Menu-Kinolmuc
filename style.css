@@ -1,6 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+header img {
+    width: 100%;
+}
+header{
+    margin-bottom: 2rem;
+}
 .h5, .card-title, .card-text{
     color: white;
 }
-.bg-all{
+.fondo, #navbar-bgcolor, footer{
     background-color: #000000;
+}
+.img-promociones{
+    width: 250px;
+    height: 250px;
+}
+.card-promociones{
+    width: 18rem;
+    margin: 1rem;
+}
+.card-hover:hover{
+    background-color: #11111b!important;
 }
