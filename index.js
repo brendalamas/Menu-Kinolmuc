@@ -1,10 +1,9 @@
-window.onload = () => {
-    new Glider (document.querySelector(".corousel-lista"), {
-        slidesToShow: 3,
-        dots: '#dots',
-        arrows: {
-            prev: '.carousel-anterior',
-            next: '.carousel-siguiente'
-        }
-    })
+// modo oscuro - modo claro
+
+const btnSwitch = document.querySelector("#switch");
+
+btnSwitch.onclick = () => {
+    document.body.classList.toggle("light")
+    btnSwitch.classList.toggle("active")
+
 }
