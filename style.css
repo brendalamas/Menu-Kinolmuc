@@ -106,7 +106,9 @@ span{
 .light .card-title, .light medium{
     color: #ffffff!important;
 }
-
+.light .card:hover{
+    background-color: #5c636a8f!important;
+}
 /* responsive */
 @media screen and (max-width: 768px){
     .navbar-nav{    
